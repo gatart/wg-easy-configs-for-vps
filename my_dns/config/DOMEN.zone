@@ -1,0 +1,15 @@
+$TTL    86400
+$ORIGIN <DOMEN>.
+@                       IN      SOA     <DOMEN>.         admin.<DOMEN>.local. (
+                                        201109251       ; Serial
+                                        604800          ; Refresh
+                                        86400           ; Retry
+                                        2419200         ; Expire
+                                        86400 )         ; Negative Cache TTL
+;
+
+@                       IN      NS      <DOMEN>.
+
+<DOMEN>.                 IN      A       172.16.0.4
+
+<PANEL-HOSTNAME>.<DOMEN>.        IN      A       172.16.0.3
