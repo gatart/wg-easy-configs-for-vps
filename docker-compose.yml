@@ -9,7 +9,7 @@ services:
       PASSWORD: <PANEL-PASSWD>
       WG_MTU: 1420
       WG_PORT: <WG-PUB-PORT>
-      WG_DEFAULT_DNS: 172.16.0.4
+      WG_DEFAULT_DNS: 172.16.0.4, 8.8.8.8, 8.8.4.4
     volumes:
       - ~/wireguard/.wg-easy:/etc/wireguard
     ports:
